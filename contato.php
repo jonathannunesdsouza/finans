@@ -51,29 +51,23 @@
                             
                         </p>
 
-                        <img src="imagens/suporte-contato.png" width="426">
+                        <img class="mt-4" src="imagens/suporte-contato.png" width="426">
                     </div>
                 </div>
 
                 <div class="col-md-6 d-flex">
                     <div class="card-body font-weight-bold">
                             <form>
+
                                 <div class="form-group">
-                                    <label for="para">Para</label>
-                                    <input type="text" class="form-control" id="para" placeholder="joao@dominio.com.br">
+                                    <input type="text" class="form-control" id="assunto" placeholder="Assunto do e-mail">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="assunto">Assunto</label>
-                                    <input type="text" class="form-control" id="assunto" placeholder="Assundo do e-mail">
+                                    <textarea class="form-control" id="mensagem" placeholder="Mensagem do e-mail"></textarea>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="mensagem">Mensagem</label>
-                                    <textarea class="form-control" id="mensagem"></textarea>
-                                </div>
-
-                                <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+                                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
                             </form>
                     </div>
                 </div>

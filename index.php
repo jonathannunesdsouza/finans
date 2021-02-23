@@ -283,6 +283,7 @@
               <a href="#">Recursos</a>
               <a href="#">Benefícios</a>
               <a href="#">Preços</a>
+              <a href="contato.php">Contato</a>
 
             </p>
             
