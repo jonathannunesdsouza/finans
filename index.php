@@ -162,7 +162,7 @@
 
                     <div class="align-self-center">
 
-                        <img src="imagens/saiba.png" class="img-fluid">
+                        <img src="imagens/saiba.png" class="d-md-block d-none img-fluid">
                 
                     </div>
                 
@@ -185,7 +185,7 @@
 
                     <div class="align-self-center">
 
-                        <img src="imagens/juros.png" class="img-fluid">
+                        <img src="imagens/juros.png" class="d-md-block d-none img-fluid">
 
               
                     </div>
@@ -228,7 +228,7 @@
 
                 <div class="col-md-4"><!-- inicio | coluna-1/col-md-4 -->
             
-                    <img src="imagens/facil.png" class="img-fluid">
+                    <img src="imagens/facil.png" class="d-md-block d-none img-fluid">
 
                     <h3>Fácil de usar</h3>
 
@@ -245,7 +245,7 @@
 
                 <div class="col-md-4 text-justify"><!-- inicio | coluna-2/col-md-4 -->
 
-                    <img src="imagens/economize.png" class="img-fluid">
+                    <img src="imagens/economize.png" class="d-md-block d-none img-fluid">
 
                     <h3>Economize seu tempo</h3>
 
@@ -261,7 +261,7 @@
 
                 <div class="col-md-4"><!-- inicio | coluna-3/col-md-4 -->
 
-                    <img src="imagens/suporte.png" class="img-fluid">
+                    <img src="imagens/suporte.png" class="d-md-block d-none img-fluid">
 
                     <h3>Suporte amigo</h3>
 
