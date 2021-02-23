@@ -119,6 +119,50 @@
       
     </section><!-- fim sessão -->
 
+    <section class="conteudo"><!-- inicio | section - saiba -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 d-flex">
+
+                    <div class="align-self-center">
+
+                        <h2>Saiba para onde vai o seu dinheiro</h2>
+
+                        <p class="lead">
+
+                            Com o FInans, você categoriza todos os seus lançamentos.
+                            Com gráficos simples, você sabe de onde vem e para onde vai
+                            o seu dinheiro.
+                            
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Veja mais</a>
+                    
+                    </div>
+                
+                </div>
+
+
+                <div class="col-md-6 d-flex">
+
+                    <div class="align-self-center">
+
+                        <img src="imagens/saiba.png" class="img-fluid">
+                
+                    </div>
+                
+                </div>
+
+
+            </div>
+        
+        </div>
+      
+    </section><!-- fim | section - saiba -->
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
