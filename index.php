@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Boostrap Fontawesome -->
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!-- Estilo -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -65,6 +65,59 @@
         </nav><!-- fim menu de navegação -->
 
     </header><!-- fim cabeçalho -->
+
+    <section class="bg-warning" id="home"><!-- inicio sessão -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6 d-flex "><!-- inicio textos da seção -->
+
+                    <div class="align-self-center">
+                        <h1 class="display-4 text-light">Suas contas descomplicadas</h1>
+                        <p class="lead text-light">
+                            
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar a sua vida financeira.
+
+                        </p>
+
+                        <form class="mt-4 mb-4">
+
+                            <div class="input-group input-group-lg">
+                            <input type="text" name="texto" placeholder="Seu e-mail" class="form-control">
+
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">Cadastre-se</button>
+                            </div>
+
+                            </div>
+
+                        </form>
+
+                        <p class="lead text-light">Disponível para:
+                            <a href="#" class="btn btn-outline-light">
+                            <i class="fab fa-android fa-lg"></i>
+                            </a>
+
+                            <a href="#" class="btn btn-outline-light">
+                            <i class="fab fa-apple fa-lg"></i>
+                            </a>
+                        </p>
+
+                    </div>
+            
+                </div><!-- fim textos da seção -->
+
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="imagens/capa-mulher.png">
+                </div>
+          
+            </div>
+        
+        </div>
+      
+    </section><!-- fim sessão -->
 
 
     <!-- JavaScript (Opcional) -->
