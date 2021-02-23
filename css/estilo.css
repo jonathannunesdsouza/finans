@@ -2,3 +2,8 @@
     background-color: #ffc107;
     color: white;
 }
+
+.conteudo {
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
