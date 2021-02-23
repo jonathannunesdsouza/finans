@@ -82,13 +82,19 @@
 
                         </p>
 
-                        <form class="mt-4 mb-4">
+                        <p class="lead text-light">
+                            
+                            <strong>Cadastre-se de forma gratuita na nossa Newsletter</strong> e fique por dentro das novidades da ferramenta.
+
+                        </p>
+
+                        <form action="processa_envio.php" method="post" class="mt-4 mb-4">
 
                             <div class="input-group input-group-lg">
-                            <input type="text" name="texto" placeholder="Seu e-mail" class="form-control">
+                            <input type="text" name="email_newsletter" placeholder="Informe seu melhor e-mail" class="form-control">
 
                             <div class="input-group-append">
-                                <button class="btn btn-primary">Cadastre-se</button>
+                                <button type="submit" class="btn btn-primary">Newsletter</button>
                             </div>
 
                             </div>
