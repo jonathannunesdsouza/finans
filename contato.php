@@ -24,7 +24,7 @@
 
             <div class="container">
 
-                <a href="#" class="navbar-brand">
+                <a href="index.php" class="navbar-brand">
                     <img src="imagens/logo.png" width="142">
                 </a>
 
