@@ -57,14 +57,14 @@
 
                 <div class="col-md-6 d-flex">
                     <div class="card-body font-weight-bold">
-                            <form>
+                            <form action="processa_envio.php" method="post">
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="assunto" placeholder="Assunto do e-mail">
+                                    <input name="assunto" type="text" class="form-control" id="assunto" placeholder="Assunto do e-mail">
                                 </div>
 
                                 <div class="form-group">
-                                    <textarea class="form-control" id="mensagem" placeholder="Mensagem do e-mail"></textarea>
+                                    <textarea name="mensagem" class="form-control" id="mensagem" placeholder="Mensagem do e-mail"></textarea>
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
