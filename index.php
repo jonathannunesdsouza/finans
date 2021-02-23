@@ -101,7 +101,7 @@
 
                             <? if (isset($_GET['newsletter']) && $_GET['newsletter'] == 'cadastrado') {?>
                                 <div class="text-success mt-2">
-                                E-mail cadastrado na Newsletter com sucesso!
+                                Obrigado por se cadastrar em nossa Newsletter!
                                 </div>
                             <? } ?>
 
