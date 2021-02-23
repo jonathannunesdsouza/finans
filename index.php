@@ -18,8 +18,54 @@
 
   </head>
   <body>
-   
-    
+    <header><!-- inicio cabeçalho -->
+        
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+
+            <div class="container">
+
+                <a href="#" class="navbar-brand">
+                    <img src="imagens/logo.png" width="142">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span  class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal" >
+
+                    <ul class=" navbar-nav ml-auto">
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Recursos</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Benefícios</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Preços</a>
+                        </li>
+                
+                        <li>
+                            <a href="#" class="btn btn-outline-light ml-4">Entrar</a>
+                        </li>
+                
+                    </ul>
+            
+                </div>
+            
+            </div><!-- menu de navegação -->
+        
+        </nav><!-- fim menu de navegação -->
+
+    </header><!-- fim cabeçalho -->
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
