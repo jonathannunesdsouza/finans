@@ -11,8 +11,7 @@
 
     class Mensagem {
         private $destinatario = 'jonathannunes.souza98@gmail.com';
-        private $assunto = null;
-        private $mensagem = null;
+        private $usuario_newsletter = null;
 
         public function __get($atributo) {
             return $this->$atributo;
@@ -23,7 +22,7 @@
         }
 
         public function mensagemValida() {
-            if (empty($this->assunto) || empty($this->mensagem)) {
+            if (empty($this->usuario_newsletter)) {
                 return false;
             }
                 return true;
@@ -33,8 +32,7 @@
     $mensagem = new Mensagem();
 
     $mensagem->__set('destinatario', 'jonathannunes.souza98@gmail.com');
-    $mensagem->__set('assunto', $_POST['assunto']);
-    $mensagem->__set('mensagem', $_POST['mensagem']);
+    $mensagem->__set('usuario_newsletter', $_POST['usuario_newsletter']);
 
     if (!$mensagem->mensagemValida()) {
         echo 'Mensagem não é válida';
@@ -67,12 +65,12 @@
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = $_POST['assunto'];
-        $mail->Body    = $_POST['mensagem'];
+        $mail->Subject = 'Cadastro de usuário no Newsletter';
+        $mail->Body    = 'E-mail informado para cadastro: ' .$_POST['usuario_newsletter'];
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();
-        echo 'Message has been sent';
+        header('Location: index.php?newsletter=cadastrado');
     } catch (Exception $e) {
         echo "A mensagem não pode ser enviada. Erro: {$mail->ErrorInfo}";
     }

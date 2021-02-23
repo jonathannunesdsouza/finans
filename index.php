@@ -91,13 +91,19 @@
                         <form action="processa_envio.php" method="post" class="mt-4 mb-4">
 
                             <div class="input-group input-group-lg">
-                            <input type="text" name="email_newsletter" placeholder="Informe seu melhor e-mail" class="form-control">
+                                <input type="text" name="email_newsletter" placeholder="Informe seu melhor e-mail" class="form-control">
 
-                            <div class="input-group-append">
-                                <button type="submit" class="btn btn-primary">Newsletter</button>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-primary">Newsletter</button>
+                                </div>
+
                             </div>
 
-                            </div>
+                            <? if (isset($_GET['newsletter']) && $_GET['newsletter'] == 'cadastrado') {?>
+                                <div class="text-success mt-2">
+                                E-mail cadastrado na Newsletter com sucesso!
+                                </div>
+                            <? } ?>
 
                         </form>
 
