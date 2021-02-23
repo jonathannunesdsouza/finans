@@ -208,6 +208,68 @@
       
     </section><!-- fim | section - juros -->
 
+    <section class="conteudo"><!-- inicio | section recursos -->
+
+        <div class="container"><!-- inicio | container - beneficios -->
+
+            <div class="row"><!-- inicio | row-1/linha-1 -->
+
+                <div class="col-md-4"><!-- inicio | coluna-1/col-md-4 -->
+            
+                    <img src="imagens/facil.png" class="img-fluid">
+
+                    <h3>Fácil de usar</h3>
+
+                    <p class="lead" style="font-size: 19px;" >
+
+                        O Finans vai além do básico e permite que você
+                        faça controles incríveis, essencias para suas
+                        finanças. Simples como tem que ser!
+              
+                    </p>
+
+
+                </div><!-- fim | coluna-1/col-md-4 -->
+
+                <div class="col-md-4 text-justify"><!-- inicio | coluna-2/col-md-4 -->
+
+                    <img src="imagens/economize.png" class="img-fluid">
+
+                    <h3>Economize seu tempo</h3>
+
+                    <p class="lead" style="font-size: 18px;">
+
+                        Tempo é dinheiro! Em segundos, você tem tudo
+                        sob controle e aproveite seu tempo com o que realmente
+                        importa pra você.
+                        
+                    </p>
+            
+                </div><!-- fim | coluna-2/col-md-4 -->
+
+                <div class="col-md-4"><!-- inicio | coluna-3/col-md-4 -->
+
+                    <img src="imagens/suporte.png" class="img-fluid">
+
+                    <h3>Suporte amigo</h3>
+
+                    <p class="lead" style="font-size: 18px;" >
+
+                         Dúvidas? Perguntas? Nosso suporte super legal
+                        ajuda você! A gente tá aqui pra resolver seus
+                        problemas e deixar a sua vida bem mais fácil!
+                        
+                    </p>
+                        
+                </div><!-- fim | coluna-3/col-md-4 -->
+
+          
+            </div><!-- fim | row-1/linha-1 -->
+        
+        </div><!-- fim | container - beneficios -->
+      
+    </section><!-- fim | section recursos -->
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
