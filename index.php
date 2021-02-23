@@ -270,6 +270,58 @@
       
     </section><!-- fim | section recursos -->
 
+    <footer class="mt-4 mb-4"><!-- inicio | footer/rodapé -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-8"><!-- inicio | menu footer/rodapé -->
+
+            <p>
+              <a href="#">Home</a>
+              <a href="#">Recursos</a>
+              <a href="#">Benefícios</a>
+              <a href="#">Preços</a>
+
+            </p>
+            
+          </div><!-- fim | menu footer/rodapé -->
+
+          <div class="col-md-4 d-flex justify-content-end"><!-- inicio  | redes sociais -->
+            
+            <a href="#" class="btn btn-outline-dark text-secondary">
+
+              <i class="fab fa-facebook-square"></i><!-- icone | facebook -->
+
+            </a>
+
+            <a href="#" class="btn btn-outline-dark text-secondary ml-2">
+
+              <i class="fab fa-twitter "></i><!-- icone | twitter -->
+
+            </a>
+
+            <a href="#" class="btn btn-outline-dark text-secondary  ml-2">
+
+              <i class="fab fa-instagram"></i><!-- icone | instagram -->
+
+            </a>
+
+            <a href="#" class="btn btn-outline-dark text-secondary ml-2">
+
+              <i class="fab fa-youtube"></i><!-- icone | youtube -->
+
+            </a>
+          
+          </div><!-- fim  | redes sociais -->
+          
+        </div>
+        
+      </div>
+      
+    </footer><!-- fim | footer/rodapé -->
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
