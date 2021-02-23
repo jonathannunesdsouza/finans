@@ -65,7 +65,7 @@
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = 'Cadastro de usuário no Newsletter';
+        $mail->Subject = 'Cadastro de usuario no Newsletter';
         $mail->Body    = 'E-mail informado para cadastro: ' .$_POST['usuario_newsletter'];
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
