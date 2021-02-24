@@ -14,3 +14,8 @@ Caso bem sucedida, a operação retorna ao usuário um feedback positivo, entret
 ![screenshoot 1](imagens/2.gif "Exibição Mobile")
 
 ![screenshoot 1](imagens/3.gif "Exibição Desktop")
+
+Para executar o projeto localmente o repositório deve ser clonado da forma desejada:
+```
+$ git clone https://github.com/finans.git
+```
