@@ -9,3 +9,6 @@ Por meio da biblioteca ***PHPMailer***, ao preencher o campo "informe seu melhor
 
 ![screenshoot 1](imagens/1.gif "Enviando e-mail via PHPMailer")
 
+Caso bem sucedida, a operação retorna ao usuário um feedback positivo, entretanto, caso o usuário não preencha o campo e tente fazer o envio, a aplicação retorna um feedback informando que o campo deve ser preenchido. **Outras visualizações da aplicação:**
+
+![screenshoot 1](imagens/2.gif "Tela de login / Página inicial")
