@@ -19,3 +19,8 @@ Para executar o projeto localmente o repositório deve ser clonado da forma dese
 ```
 $ git clone https://github.com/finans.git
 ```
+
+## Histórico de atualização 
+
+* 0.0.1;
+    * Lançamento inicial.
