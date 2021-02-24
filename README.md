@@ -24,3 +24,11 @@ $ git clone https://github.com/finans.git
 
 * 0.0.1;
     * Lançamento inicial.
+
+## Meta 
+
+Jonathan Douglas Nunes de Souza - [@jonathansouza] - <jonathannunes.souza98@gmail.com>
+
+Distribuido sob licença. Veja **`LICENÇA`** para mais informações.
+
+[https://github.com/jonathannunesdsouza/jonathannunesdsouza.github.io]
